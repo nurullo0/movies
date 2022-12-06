@@ -3,12 +3,14 @@ import './movie-list.css'
 import MovieListItem from '../movie-list-item/movie-list-item'
 
 
-function MovieList() {
+function MovieList({ data }) {
   return (
     <ul className='movie-list'>
-      <MovieListItem/>
-      <MovieListItem/>
-      <MovieListItem/>
+      {data.map(item => (
+        <MovieListItem name={item.name} viewers={item.viewers} favourite={item.favourite} />
+      ))
+      }
+
     </ul>
   );
 }
