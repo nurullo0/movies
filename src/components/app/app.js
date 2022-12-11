@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import './app.css'
+import './app.scss'
 import AppInfo from '../app-info/app-info'
 import AppFilter from '../app-filter/app-filter'
 import SearchPanel from '../search-panel/search-panel'

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './movie-add-form.css'
+import './movie-add-form.scss'
 
 class MovieAddForm extends Component {
 

@@ -1,4 +1,4 @@
-import './app-info.css'
+import './app-info.scss'
 
 function AppInfo({allMoviesCount,onLikeMoviesCount}) {
   return (

@@ -1,4 +1,4 @@
-import './movie-list.css'
+import './movie-list.scss'
 
 import MovieListItem from '../movie-list-item/movie-list-item'
 

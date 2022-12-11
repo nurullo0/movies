@@ -1,4 +1,4 @@
-import './movie-list-item.css'
+import './movie-list-item.scss'
 
 
 
